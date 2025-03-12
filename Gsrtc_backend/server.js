@@ -12,7 +12,7 @@ app.use(express.json());
 // import router from "./routes/bus.routes";
 const router = require('./routes/bus.routes')
 
-mongoose.connect('mongodb+srv://janviashara16:NUJCRFqk1LsE3DvG@cluster0.ugkdu.mongodb.net/gsrtc',
+mongoose.connect('mongodb+srv://Link',
     {
         useNewUrlParser : true,
         useUnifiedTopology:true
